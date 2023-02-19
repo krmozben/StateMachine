@@ -1,0 +1,36 @@
+﻿<Project Sdk="Microsoft.NET.Sdk.Worker">
+
+	<PropertyGroup>
+		<TargetFramework>net6.0</TargetFramework>
+		<Nullable>enable</Nullable>
+		<ImplicitUsings>enable</ImplicitUsings>
+		<UserSecretsId>dotnet-ReturnOrderService-8E5818C7-A773-47E0-98AF-49E2029C1F9C</UserSecretsId>
+	</PropertyGroup>
+
+	<ItemGroup>
+		<PackageReference Include="CorrelationId" Version="3.0.0" />
+		<PackageReference Include="DigitalSolutions.COMS.Contracts" Version="1.0.80" />
+		<PackageReference Include="Jaeger" Version="1.0.2" />
+		<PackageReference Include="MassTransit" Version="8.0.2" />
+		<PackageReference Include="MassTransit.RabbitMQ" Version="8.0.2" />
+		<PackageReference Include="MediatR" Version="10.0.1" />
+		<PackageReference Include="MediatR.Extensions.Microsoft.DependencyInjection" Version="10.0.1" />
+		<PackageReference Include="Microsoft.EntityFrameworkCore" Version="6.0.5" />
+		<PackageReference Include="Microsoft.Extensions.Configuration.Json" Version="6.0.0" />
+		<PackageReference Include="Microsoft.Extensions.Hosting" Version="3.1.16" />
+		<PackageReference Include="Microsoft.Extensions.Http" Version="6.0.0" />
+		<PackageReference Include="Microsoft.Extensions.Http.Polly" Version="6.0.5" />
+		<PackageReference Include="Microsoft.VisualStudio.Azure.Containers.Tools.Targets" Version="1.10.8" />
+		<PackageReference Include="MongoDB.Driver" Version="2.15.1" />
+		<PackageReference Include="NLog.Extensions.Logging" Version="5.0.0" />
+		<PackageReference Include="NLog.GelfLayout" Version="1.2.0" />
+		<PackageReference Include="Nlog.RabbitMQ.Target" Version="2.7.7" />
+		<PackageReference Include="NLog.Web.AspNetCore" Version="5.0.0" />
+		<PackageReference Include="Polly" Version="7.2.3" />
+		<PackageReference Include="Polly.Extensions.Http" Version="3.0.0" />
+		<PackageReference Include="System.ServiceModel.Duplex" Version="4.7.*" />
+		<PackageReference Include="System.ServiceModel.Http" Version="4.7.*" />
+		<PackageReference Include="System.ServiceModel.NetTcp" Version="4.7.*" />
+		<PackageReference Include="System.ServiceModel.Security" Version="4.7.*" />
+	</ItemGroup>
+</Project>
